@@ -1,3 +1,3 @@
-import myPackage from "./";
+const myPackage = require("./dist");
 
 myPackage();

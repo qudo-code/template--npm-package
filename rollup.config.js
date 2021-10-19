@@ -1,12 +1,10 @@
 import commonjs from "@rollup/plugin-commonjs";
 import resolve from "@rollup/plugin-node-resolve";
 import json from "@rollup/plugin-json";
-import { babel } from '@rollup/plugin-babel';
+import { babel } from "@rollup/plugin-babel";
 import { terser } from "rollup-plugin-terser";
 
 const pkg = require("./package.json");
-
-const OUT_DIR = "dist";
 
 const {
     name,
@@ -15,16 +13,16 @@ const {
 } = pkg;
 
 export default {
-    input  : "index.js",
-    external: [/@babel\/runtime/],
-    output : [
+    input    : "index.js",
+    external : [ /@babel\/runtime/ ],
+    output   : [
         {
-            file   : `${OUT_DIR}/${esm}`,
+            file   : esm,
             format : "es",
         },
         {
-            file   :`${OUT_DIR}/${main}`,
-            format : "cjs",
+            file    : main,
+            format  : "cjs",
             name,
             exports : "default",
         },
