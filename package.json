@@ -1,0 +1,22 @@
+{
+  "name": "libraryer",
+  "version": "1.1.0",
+  "description": "A boilerplate for creating NPM/JavaScript packages. Complete with a bundler and recommended packaging patterns.",
+  "main": "index.js",
+  "scripts": {
+    "bild": "rollup -c",
+    "dev": "nodemon main.js",
+    "test": "node main.test.js",
+    "test:dev": "nodemon main.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qudo-lucas/libraryer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qudo-lucas/libraryer/issues"
+  },
+  "homepage": "https://github.com/qudo-lucas/libraryer#readme"
+}
