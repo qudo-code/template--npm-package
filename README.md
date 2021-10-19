@@ -25,7 +25,7 @@ A boilerplate for creating NPM/JavaScript packages. Complete with a bundler and 
 | `npm run test:dev`  | Similar to the above command except it watches for changes. |
 
 #### Publishing
-The publishing scripts run a build, up the version, and publish to npm via `npm publish`. Publish your package using one of the following scripts and handle versioning.
+Publish your package using one of the following scripts to automatically handle building and versioning. The publishing scripts run a build, up the version, and publish to NPM via `npm publish`.
 
 |||
 |-|-|
