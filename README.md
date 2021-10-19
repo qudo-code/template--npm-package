@@ -2,6 +2,7 @@
 A boilerplate for creating NPM/JavScript packages. Complete with a bundler and recommended packaging patterns.
 
 ## Features
-- Rollup build system.
+- Rollup
 - Babel
 - EsLint
+- Handy scripts
