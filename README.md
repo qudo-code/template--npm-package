@@ -1,6 +1,6 @@
 # JavaScript Libraryer
 
-A boilerplate for creating NPM/JavaScript packages. Complete with a bundler and recommended packaging patterns.
+A boilerplate for creating NPM/JavaScript packages. Complete with a bundler and scripts to handle versioning and publishing. 
 
 ## Features
 
